@@ -1,0 +1,8 @@
+<?php
+
+require ("model/Conexion.php");
+
+$con = new Conexion();
+$libros = $con->getAll("libros");
+
+?>
